@@ -205,7 +205,7 @@
     <pmd.version>6.21.0</pmd.version>
     <maven.jacoco.plugin.version>0.8.5</maven.jacoco.plugin.version>
     <powermock.version>2.0.6</powermock.version>
-    <saxon.version>9.9.1-7</saxon.version>
+    <saxon.version>9.9.1-8</saxon.version>
     <maven.checkstyle.plugin.version>3.1.1</maven.checkstyle.plugin.version>
     <maven.sevntu.checkstyle.plugin.version>1.37.1</maven.sevntu.checkstyle.plugin.version>
     <maven.sevntu-checkstyle-check.checkstyle.version>
@@ -515,7 +515,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -528,7 +528,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -556,7 +556,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -569,7 +569,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -582,7 +582,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1254,11 +1254,11 @@
             </goals>
             <configuration>
               <target>
-                <property name="mvn.project.build.directory" value="${project.build.directory}" />
-                <property name="mvn.project.version" value="${project.version}" />
-                <property name="mvn.runtime_classpath" refid="maven.runtime.classpath" />
-                <property name="project.basedir" value="${project.basedir}" />
-                <ant antfile="config/ant-phase-verify.xml" />
+                <property name="mvn.project.build.directory" value="${project.build.directory}"/>
+                <property name="mvn.project.version" value="${project.version}"/>
+                <property name="mvn.runtime_classpath" refid="maven.runtime.classpath"/>
+                <property name="project.basedir" value="${project.basedir}"/>
+                <ant antfile="config/ant-phase-verify.xml"/>
               </target>
             </configuration>
           </execution>
@@ -3123,7 +3123,7 @@
               <executable>.ci/eclipse-compiler-javac.sh</executable>
               <classpathScope>test</classpathScope>
               <arguments>
-                <classpath />
+                <classpath/>
               </arguments>
             </configuration>
           </plugin>
